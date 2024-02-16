@@ -58,3 +58,5 @@ source 库也包含模拟0V 符号
 创建项目时另一个常见的错误就是项目类型选择错误  
 如下操作修改项目类型： 选定项目管理器中的Design Resources， 然后通过单击右键rmb > Change Project Type 进行项目类型修改  
 
+作業1 截圖
+![image](https://github.com/yrtsao/OrCAD16.6-Learning/assets/82528634/bd89fceb-fc42-49f6-a1e5-1bc71c573d7f)
