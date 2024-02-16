@@ -1,0 +1,46 @@
+
+**** 02/16/24 20:25:32 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "RC-rc"  [ E:\CANDENCE\resistors\resistors-PSpiceFiles\RC\rc.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "rc.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\TSAO\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\RC.net" 
+
+
+
+**** INCLUDING RC.net ****
+* source RESISTORS
+R_R1         IN OUT  10R TC=0,0 
+R_R2         N00569 OUT  10R TC=0,0 
+V_V1         IN N00569 10V
+C_C1         N00569 OUT  1n  TC=0,0 
+
+**** RESUMING rc.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node IN is floating
+
+ERROR(ORPSIM-15142): Node OUT is floating
+
+ERROR(ORPSIM-15142): Node N00569 is floating
+

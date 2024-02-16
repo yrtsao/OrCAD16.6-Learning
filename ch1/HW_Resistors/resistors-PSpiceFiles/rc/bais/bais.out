@@ -1,0 +1,97 @@
+
+**** 02/16/24 20:29:07 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "RC-bais"  [ E:\CANDENCE\resistors\resistors-PSpiceFiles\RC\bais.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bais.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\TSAO\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS LIST
+.OPTIONS NOBIAS
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\RC.net" 
+
+
+
+**** INCLUDING RC.net ****
+* source RESISTORS
+R_R1         IN OUT  10R TC=0,0 
+R_R2         0 OUT  10R TC=0,0 
+V_V1         IN 0 10V
+C_C1         0 OUT  1n  TC=0,0 
+
+**** RESUMING bais.cir ****
+.END
+
+**** 02/16/24 20:29:07 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "RC-bais"  [ E:\CANDENCE\resistors\resistors-PSpiceFiles\RC\bais.sim ] 
+
+
+ ****     CIRCUIT ELEMENT SUMMARY
+
+
+******************************************************************************
+
+
+
+
+
+
+**** RESISTORS
+
+NAME               NODES      MODEL     VALUE       TC1       TC2       TCE
+
+R_R1            IN     OUT             1.00E+01 
+R_R2             0     OUT             1.00E+01 
+
+
+**** CAPACITORS
+
+NAME               NODES      MODEL     VALUE   In. Cond.     TC1       TC2
+
+C_C1             0     OUT             1.00E-09           
+
+
+**** INDEPENDENT SOURCES
+
+NAME               NODES    DC VALUE  AC VALUE  AC PHASE
+
+V_V1            IN       0  1.00E+01  0.00E+00  0.00E+00  degrees
+
+
+
+
+          JOB CONCLUDED
+
+**** 02/16/24 20:29:07 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "RC-bais"  [ E:\CANDENCE\resistors\resistors-PSpiceFiles\RC\bais.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

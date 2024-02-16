@@ -1,0 +1,5 @@
+* source RESISTORS
+R_R1         IN OUT  10R TC=0,0 
+R_R2         0 OUT  10R TC=0,0 
+V_V1         IN 0 10V
+C_C1         0 OUT  1n  TC=0,0 
