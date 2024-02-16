@@ -1,4 +1,4 @@
-Crate a file  
+CH1 Crate a file  
 
 File > New > Project  
 在New Project 窗口（见图1. 1） 中， 输入项目名称， 并且从四种项目类型  
